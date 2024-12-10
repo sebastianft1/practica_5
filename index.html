@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./assets/css/css_bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/estilos.css">
+        <link rel="shortcut icon" href="./assets/img/StarWars_NPOV_logo.svg" type="image/x-icon">
+        <title>Star Wars API</title>
+    </head>
+    <body onload="asignarEventos()">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2 bg-dark">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 colorRojo" id="divPopulares">
+                                        <p class="letrasblancas" >1-5 (personajes principales)</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 colorVerde" id="divSecundarios">
+                                        <p class="letrasblancas" >6-11 (personajes secundarios importantes)</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 colorAzul" id="divOtros">
+                                        <p class="letrasblancas" >12-17 (otros personajes significativos)</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                </div>
+                <div class="col-10 bg-dark">
+
+                    <div id="contenedorCards">
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+<center>
+        <button id="btnConsumo">Consumir API</button>
+    </center>
+        <script src="./assets/js/js_bootstrap/bootstrap.bundle.js"></script>
+        <script src="./assets/js/logica.js"></script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+.estilosCards{
+    display: inline-block;
+}
+
+.letrasblancas {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+
+.colorRojo{
+    background-color: rgb(245, 5, 5);
+   
+}
+
+
+.circuloRojo{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+}
+
+.colorVerde{
+    background-color: rgb(61, 118, 61);   
+ 
+}
+
+.circuloVerde{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: rgb(163, 255, 163);
+    display: inline-block;
+}
+
+.colorAzul{
+    background-color: rgb(21, 29, 133); 
+   
+}
+
+.circuloAzul{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: rgb(32, 64, 178);
+    display: inline-block;
+}
+
+.circuloDefault{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: rgb(98, 31, 161);
+    display: inline-block;
+}
